@@ -111,12 +111,6 @@ section.container .row {
 /* Customizations of Bootstrap responsive */
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .navbar-nav .navbar-right{
-float: right!important;}
-}*/
-
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
   .navbar-expand-sm .navbar-nav{
 margin: auto!important;
 }
