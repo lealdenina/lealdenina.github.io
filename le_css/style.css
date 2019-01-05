@@ -110,6 +110,18 @@ section.container .row {
 
 /* Customizations of Bootstrap responsive */
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .navbar-nav .navbar-right{
+float: right!important;}
+}*/
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .navbar-expand-sm .navbar-nav{
+margin: auto!important;
+}
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -127,11 +139,8 @@ float: right!important;}
 float: right!important;}
 }*/
 
-/*@media (max-width: 768px) {
-.navbar-header {
-float: none;
-}
-.navbar-toggle {
+@media (max-width: 768px) {
+/*.navbar-toggle {
 display: block;
 }
 .navbar-collapse {
@@ -156,19 +165,18 @@ padding-bottom: 10px;
 float: none;
 margin: 15px 0;
 }*/
-/* cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0 */
-.navbar-collapse.collapse.in {
+/*cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0 */
+/*.navbar-collapse.collapse.in {
 display: block!important;
 }
 .collapsing {
 overflow: hidden!important;
 }
-}
+}*/
 
-/* Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
-	.navbar-nav .navbar-right{
-float: right!important;}
+	
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -179,7 +187,5 @@ float: right!important;}
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-body{
-	background-color: red;
-}
+
 }
