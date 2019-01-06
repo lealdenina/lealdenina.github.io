@@ -6,7 +6,6 @@ src: local('Circular Std Book'), url('CircularStd-Book.woff') format('woff');
 src: local('Circular Std Book'), url('CircularStd-Book.ttf') format('truetype');
 }
 
-
 @font-face {
 font-family: 'Circular Std Medium';
 font-style: normal;
@@ -15,19 +14,15 @@ src: local('Circular Std Medium'), url('CircularStd-Medium.woff') format('woff')
 src: local('Circular Std Medium'), url('CircularStd-Medium.ttf') format('truetype');
 }
 
-
-
 strong{
   font-family: 'Circular Std Medium', 'Poppins' sans-serif;
   font-weight: bold;
 }
 
-
 body {
   font-family: 'Circular Std Book','Poppins', sans-serif;
   font-weight: normal;
 }
-
 
 ul {
   list-style: none;
@@ -56,7 +51,7 @@ header nav {
     border: 1px solid transparent;
   }
 
-    .navbar-nav {
+.navbar-nav {
     position: relative;
     display: flex;
     align-items: center;
@@ -64,6 +59,11 @@ header nav {
 
 .sr-only{
   color:blue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding-left: 20px;
 }
 
 div > h1 {
