@@ -1,26 +1,30 @@
 @font-face {
-font-family: 'Circular Std Medium';
-font-style: normal;
-font-weight: normal;
-src: url(circular/CircularStd-Medium.woff) format('woff');
-}
-
-@font-face {
 font-family: 'Circular Std Book';
 font-style: normal;
 font-weight: normal;
-src: url(circular/CircularStd-Book.woff) format('woff');
+src: local('Circular Std Book'), url('CircularStd-Book.woff') format('woff');
+src: local('Circular Std Book'), url('CircularStd-Book.ttf') format('truetype');
 }
 
 
+@font-face {
+font-family: 'Circular Std Medium';
+font-style: normal;
+font-weight: bold;
+src: local('Circular Std Medium'), url('CircularStd-Medium.woff') format('woff');
+src: local('Circular Std Medium'), url('CircularStd-Medium.ttf') format('truetype');
+}
+
+
+
 strong{
-  font-family: 'CircularStd-Medium', 'Poppins' sans-serif;
+  font-family: 'Circular Std Medium', 'Poppins' sans-serif;
   font-weight: bold;
 }
 
 
 body {
-  font-family: 'CircularStd-Book','Poppins', sans-serif;
+  font-family: 'Circular Std Book','Poppins', sans-serif;
   font-weight: normal;
 }
 
