@@ -167,8 +167,11 @@ footer div {
   font-size: 20px;
 }
 
-.back{
+#paragraph2 p{
+  font-size: 20px;
+}
 
+.back{
   background-color: grey;
 }
 
@@ -380,24 +383,32 @@ float: inherit !important;
 }
 }
 
-
-/*@media screen and (min-width: 768px) {
-  .navbar-toggler{
-display:none;
+@media (min-width: 768px) and (max-width: 1300px) {
+  #paragraph{
+margin-top:-50px;
+  }
 }
-}*/
 
-@media (max-width: 991px){
+
+@media (max-width: 768px){
+
+#disdiv {
+  margin-top: -70px;
+}
+
   .screen{
     margin-bottom:30px;
   }
 
   #paragraph{
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
-}
 
-@media (max-width: 768px){
+  #paragraph2 p{
+    margin-bottom:20px;
+    font-size: 18px;
+      }
+
   #paragraph p{
     font-size: 18px;
     text-align: justify;
