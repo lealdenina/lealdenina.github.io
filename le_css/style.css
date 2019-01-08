@@ -33,9 +33,8 @@ p{
 }
 
 a{
-  font-size: 16px;
+  font-size: 18px;
 }
-
 
 ul {
   list-style: none;
@@ -183,7 +182,6 @@ header .row {
   align-items: center;
   margin-bottom: 100px;
 }
-
 
 .col-sm-4 p {
   margin: 25px 20px 15px;
@@ -440,7 +438,7 @@ margin-top:-50px;
 
   @media (min-width: 1300px) {
   #aboot {
-   margin-top: 405px;
+   margin-top: 400px;
 }
   }
 
