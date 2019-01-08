@@ -56,6 +56,10 @@ header nav {
   justify-content: flex-end;*/
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+color: #3570F2;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
