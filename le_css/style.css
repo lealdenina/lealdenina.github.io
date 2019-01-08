@@ -24,6 +24,19 @@ body {
   font-weight: normal;
 }
 
+p{
+  font-size: 16px;
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+a{
+  font-size: 16px;
+}
+
+
 ul {
   list-style: none;
   display: flex;
@@ -85,6 +98,10 @@ footer div {
   margin-bottom: 15px;
 }
 
+.col-sm-2 {
+  width: 40px;
+}
+
 .btn-primary {
   background-color: #306BF5 !important;
   border: none;
@@ -123,6 +140,37 @@ footer div {
   margin-right: 10px;
 }
 
+.imageproject{
+  position: absolute;
+  width: 400px;
+  display:block;
+  margin-left: 670px;
+}
+
+.screen{
+  position: relative;
+  width: 100%;
+  display:block;
+  margin:auto;
+  margin-bottom: 75px;
+}
+
+#paragraph {
+  margin-bottom: 70px;
+}
+
+#paragraph h2{
+  font-size: 50px;
+}
+
+#paragraph p{
+  font-size: 20px;
+}
+
+.back{
+
+  background-color: grey;
+}
 
 /* Customizations of Bootstrap classes */
 
@@ -339,6 +387,27 @@ display:none;
 }
 }*/
 
+@media (max-width: 991px){
+  .screen{
+    margin-bottom:30px;
+  }
+
+  #paragraph{
+    margin-bottom:20px;
+  }
+}
+
+@media (max-width: 768px){
+  #paragraph p{
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  #paragraph h2{
+    font-size: 36px;
+  }
+}
+
 @media (max-width: 576px){
   .col-xs-4{
     display:none;
@@ -353,6 +422,18 @@ display:none;
     margin-top: -70px;
     align-items: center;
     justify-content: center;
+}
+  }
+
+  @media (min-width: 1300px) {
+  #aboot {
+   margin-top: 405px;
+}
+  }
+
+   @media (min-width: 1300px) {
+  #aboot1 {
+   margin-top: 100px;
 }
   }
 
