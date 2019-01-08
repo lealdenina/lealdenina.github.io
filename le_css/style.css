@@ -63,7 +63,6 @@ header nav {
     border: 1px solid transparent;
   }
 
-
 .navbar-nav {
     position: relative;
     display: flex;
@@ -73,7 +72,6 @@ header nav {
 .sr-only{
   color:blue;
 }
-
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
@@ -440,7 +438,7 @@ margin-top:-50px;
 
   @media (min-width: 1300px) {
   #aboot {
-   margin-top: 400px;
+   margin-top: 397px;
 }
   }
 
