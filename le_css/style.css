@@ -585,3 +585,71 @@ footer.container .row {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+  background-color: TOMATO;
+  color: darken(#fff, 20%);
+  padding-top: 25%;
+  text-align: center;
+}*/
+
+
+
+
+
+
+.button {
+  font-size: 52px;
+  transition: all 0.4s ease-in;
+  }
+
+  .button:before {
+    /*content: '';
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale(0.001, 0.001);
+  */}
+  .button:focus {
+    outline: 0;
+    color: #fff;}
+    .button:before {
+      animation: effect_dylan 0.8s ease-out;
+    }
+  }
+}
+@keyframes effect_dylan {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}
+
