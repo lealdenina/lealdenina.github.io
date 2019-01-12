@@ -1,3 +1,10 @@
+/**
+Fixing bootstrap columns for safari
+ */
+.row:before, .row:after{
+ display: inline-block !important;
+}
+
 @font-face {
 font-family: 'Circular Std Book';
 font-style: normal;
