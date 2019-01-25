@@ -5,6 +5,11 @@ Fixing bootstrap columns for safari
  display: inline-block !important;
 }
 
+#logo{
+      width: 50%;
+      margin-top: -11px;
+}
+
 @font-face {
 font-family: 'Circular Std Book';
 font-style: normal;
@@ -266,7 +271,7 @@ section.container .row {
 }
 
 .lol:hover .image {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .lol:hover .middle {
@@ -475,6 +480,12 @@ margin-top: -25px;
 }
   }
 
+@media (min-width: 1300px){
+
+#disdiv {
+  margin-top: -30px;
+}
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
