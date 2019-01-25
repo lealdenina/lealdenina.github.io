@@ -451,17 +451,31 @@ margin-top:-50px;
 }
   }
 
-  @media (min-width: 1300px) {
+  @media (min-width: 1500px) {
   #aboot {
-   margin-top: 463px;
+   margin-top: 496px;
 }
   }
+@media (max-width: 1300px){
+  .mainstuff{
+  margin-top: -35px;
+}
+  #mainabout {
+margin-top: -25px;
+  }
+  #aboot{
+    margin-top: -10px;
+  }
+
+}
 
    @media (min-width: 1300px) {
   #aboot1 {
    margin-top: 170px;
 }
   }
+
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
