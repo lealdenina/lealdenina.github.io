@@ -28,6 +28,8 @@ html {
       margin-top: -11px;
 }
 
+
+
 @font-face {
 font-family: 'Circular Std Book';
 font-style: normal;
@@ -82,10 +84,10 @@ figure {
   margin-bottom: 30px;
 }
 
-header nav {
-  /*display: flex;
-  justify-content: flex-end;*/
-}
+/*header nav {
+  display: flex;
+  justify-content: flex-end;
+}*/
 
 .navbar-light .navbar-nav .nav-link.active {
 color: #3570F2;
@@ -108,10 +110,10 @@ color: #3570F2;
   color:blue;
 }
 
-.navbar-light .navbar-nav .nav-link {
+/*.navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
     padding-left: 20px;
-}
+}*/
 
 div > h1 {
   font-size: 1.8rem;
@@ -374,20 +376,20 @@ a:focus, a:hover {
 
 /* Customizations of Bootstrap responsive */
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/*@media screen and (min-width: 576px) and (max-width: 768px) {
   .navbar-expand-sm .navbar-nav{
 margin-left: auto;
 }
-}
+}*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/*@media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-right{
 float: inherit !important;
 }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-/*.navbar-collapse.collapse {
+.navbar-collapse.collapse {
 
     display:none !important;
     height: auto !important;
@@ -396,12 +398,32 @@ float: inherit !important;
 }
 }*/
 
-.show {
+/*.show {
     display: block !important;
+}*/
+
+/*.collapse:not(.show) {
+    display: none !important;
+}
+}*/
+
+.navbar-toggler{
+     display: block;
+    right: 60px;
+    margin: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.collapse:not(.show) {
-    display: none !important;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler{
+display: none!important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  #logo{
+margin:auto;
 }
 }
 
@@ -510,7 +532,7 @@ overflow: hidden!important;
 
 /* Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
-	
+  
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -777,6 +799,15 @@ body.scrollable {
    width: 120%;
 }
   }
+
+
+
+  @media (max-width: 768px) {
+ .image2{
+  margin-bottom: 90px;
+ }
+}
+
 
   @media (min-width: 992px) and (max-width: 1300px) {
   .image2 {
