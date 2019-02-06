@@ -778,7 +778,7 @@ body.scrollable {
    width: 100%;
 }
 #imgmod5 {
-   width: 100px;
+   width: 100%;
 }
 #imgmod6 {
    width: 120%;
@@ -990,7 +990,7 @@ height: 50%;
     margin-left: 0px;
 
 }
-/*
+*/
 
 .modal-footer {
   display: none;
