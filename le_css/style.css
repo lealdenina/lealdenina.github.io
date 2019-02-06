@@ -676,13 +676,13 @@ body.scrollable {
 }
 
 #imgmod4{
-  /*width: 120%;*/
+  width: 120%;
    position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
 #imgmod5{
-  /*width: 120%;*/
+  width: 120%;
    position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
