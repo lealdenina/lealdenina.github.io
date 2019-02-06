@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Project 1</title>
+    <title>Clue Redesign</title>
   <meta http-equiv="Content-Type" content="text/html ; charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-	    <link rel="stylesheet" type="text/css" href="le_css/style.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="le_css/style.css"/>
        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+        
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#myModal").modal('show');
+  });
+</script>
+
 </head>
 <body>
+
+
+
 
   <!--HEADER-->
 
@@ -35,36 +51,567 @@
 <section id="disdiv">
 <section class="container" id="paragraph">
       <div class="row">
-<div class="col-xs-10 col-sm-10 col-md-810 col-lg-10">
-<h2>Budget App</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  <br>
-  <br>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+<h2>Clue Redesign</h2>
+</div>
+</div>
+</section>
+</section>
+
+<!--IMG1 MODAL-->
+  <section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMGf" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/first.png" alt="Avatar" id="firstimg" class="screen">
+ </a>
+</div>
+ </div>
+ </div>
+</section>
+
+<!--1MODAL-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMGf" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/first.png" id="imgmodf" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!--<div id="wrapper"  style="z-index:1">
+ <img src="projects/cluelogo.png" class="cluelogo" alt="Avatar">
+</div>-->
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+
+  <h3>Context</h3>
+<div style="z-index:2; display:flex;">
+<p>2019 humans are now able to have a general view of their menstrual cycles and health. Clue is not intended to be a substitute for medical consultation, but it can make our life easier by offering us the right info at the right time. I’d like to see a tool that offers us simplicity of use, non-intrusive advice and accompaniment, reliable educative informations, intelligent useful features (such as forecasts, digests, alerts) all of that delivered with clean, straightforward UI. Clue has been doing this for a few years now but maybe it has room for improvement.
+  <br> <br> Disclaimer : this does not include researches about any premium features.
+ <br> <br>
 </p>
+</div>
+
+
+
+ <h3>Problem</h3>
+ <div style="z-index:2; display:flex;">
+ <p>
+The majority of the -yet clever- features are underused and could be more effectively thought out. Why ?</p>
+</div>
+
+<br>
+<ul id="prolist">
+  <li>The app is <strong>not customizable enough</strong>. It doesn’t pay enough attention to the different types of users, which have different goals using the app.</li>
+ <br>
+<li>The user is <strong>not encouraged to enter data</strong> because once they do, few things really do happen. The lack of an intelligent, useful feedback compared to the great amount of data requested is kind of discouraging.</li>
+</ul>
+ <br>
+
+<p>I tried to solve those problems by : </p> 
+
+<ul id="prolist">
+<li>Designing a more <strong>customizable</strong> experience for the users</li>
+<li>Adding some <em>meaning</em> to the <strong>tracking tools</strong></li>
+</ul>
+
+</div>
+</div>
+</section>
+</section>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <h3>Users</h3>
+<p>After making some researches, I ended up working around the experience of 3 personas. Astrid is the one we’re going to follow until the end of this case study. She's a <strong>sexually active woman</strong>that doesn’t want to get pregnant. She’s taking birth control and uses Clue to keep track of her cycle, health and basically, she expects to just be notified when something’s wrong. The two other personas are a <strong>pregnant woman</strong>, and a <strong>woman who wishes to get pregnant</strong>. You could easily see why they would have very different uses of the app (especially the pregnant woman whose menstrual cycle is completely disrupted).</p>
 </div>
 </div>
 </section>
 
 
+
+
+<!--IMG2 MODAL-->
 <section class="container">
       <div class="row">
-       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG2" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
 <div class="image2">
- <img src="projects/p1b.png" alt="Avatar" class="screen">
+ <img src="projects/perso.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL2-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/perso.png" id="imgmod2" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+<p>Obviously, the goal here is not to create 3 different apps for 3 different woman. I’m rather going for a single mutual app, like a common core around which several “secondary” features would be offered to users after we got to know them better.<br><br> But how do we do that ?<br>
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <h3>Sign up journey</h3>
+ <p>Existing screens : here’s what the sign up journey on Clue currently looks like.
+</p>
+</div>
+</div>
+</section>
+
+<!--IMG3 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG3" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue3.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL3-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue3.png" id="imgmod3" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>And here is what I tried to do with the onboarding journey :
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+<!--IMG4 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG4" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/onboarding.gif" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL4-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG4" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/onboarding.gif" id="imgmod4" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>
+  I get that not everybody is willing to spend 3mn+ on an app, giving personal informations, especially at this early stage, when the user has just signed up and wants to play with the app a little bit. So, since the journey is going to be extended anyway, I thought it could be a good idea to add a little “save” element so the user can <strong>leave the app anytime without losing all progress</strong>. 
+<br><br>
+The user can now pick the <strong>right profile</strong> for them. This choice is going to affect the rest of the journey by making <strong>suggestions</strong> to the user, preselecting categories, and educate them into a better knowledge of the app features. This is especially featured in the two all-green illustrated screens with swipeable cards. The a common core is represented by the first “health tracker” card, and then there’s the “<strong>contraception assistant</strong>”, specific to the user’s profile.
+
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+<!--IMG5 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG5" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/settings.gif" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL5-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG5" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/settings.gif" id="imgmod5" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>
+ I chose to keep the visual structure (yes/no answering type of form) and the initial colors of the first onboarding journey. Also, you can still navigate the different tabs with the top arrows. The goal here is to make the user <strong>feel safe</strong>, they must not have the feeling of being lost in all of this. Short messages are here to reassure the young user and to give informations about the content. Users that don’t know much about contraception or that don't feel involved in this <strong>should not feel overwhelmed.</strong> 
+<br><br>
+The <strong>alert/reminder</strong> tab has been upgraded. With the customization, the user gets <strong>presets based on his profile</strong>. Astrid's alerts, for example, are mainly about period and contraception. Remember how we said she expected from the app to notice her when something’s wrong ? Now, Reminder and Analysis work together to tell Astrid when she’s been having a risky behaviour ; such as having unprotected sex the same day she had forgotten to take her pill and is in the middle of her fertile window ! This is typically the kind of useful application Clue could make of the data it’s collecting. It’s <strong>getting back to the user</strong>, who will, in response, continue to update their “profile” daily.
+<br><br>
+Finally, the <strong>categories</strong> tab allows the user to pick which elements they needs to keep track of. Again, not every human needs to keep track of their back pain, body temperature, or acne. I redesigned the aspect of the categories picker to make it feel lighter and more simple-looking. Also, you can get a quick overview of a broad range of categories without having to read them all. <strong>Just pick what feels relevant to you.</strong>
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <h3>The tracking tools</h3>
+  <br>
+   <h4>1. Calendar</h4>
+ <p>The <strong>calendar</strong>, as known as the “today” screen. The point of the current design is to allow the user to see instantly their current, past and future cycles, with periods and fertile windows. Days are designed with boxes, within which square represent a data the user filled in that day. You can see all of that very quickly. Problem is, in real life, you don’t necessarily know what these colored squares are representing. You don’t see quickly enough what month it is. The date indicator indicates a cycle day (day 20) that doesn’t match the calendar real days.
+  <br><br>
+  What I tried to achieve with this screen was to <strong>keep quick general overview</strong> but make it <strong>breathe</strong> a little. So now, the two things you now see right away are your period and fertile window, this month. So the period+ovulation filters are automatically enabled, but you can disable it if you want to, to focus on other things like filters. 
+  <br><br>
+But because sometimes, you need a more general view, and because cycles don’t follow our month rules, I created another view, in which you can also <strong>predict</strong> your next cycle. 
+</p>
+</div>
+</div>
+</section>
+
+
+
+<!--IMG6 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG6" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue4.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL6-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG6" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue4.png" id="imgmod6" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>Thanks to our new onboarding, you already know how the filters/categories work, so let’s try it ! Users can now quickly track, let’s say the day they missed their birth control pill and associate it to the days they had unprotected sex. One other thing about the categories : you now can <strong>modify your favorite categories</strong> right on this screen, while you’re actually using it. This feature, in the current app, is quite hidden in the setting so I meant to improve its accessibility.
+</p>
+</div>
+</div>
+</section>
+
+<!--IMG1 MODAL-->
+  <section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/cat.png" alt="Avatar" class="screen">
+ </a>
 </div>
  </div>
  </div>
 </section>
 
-<section class="container" id="paragraph2">
+<!--1MODAL-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/cat.png" id="imgmod" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
       <div class="row">
-<div class="col-xs-10 col-sm-10 col-md-810 col-lg-10">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+  <h4>2. Analysis</h4>
+ <p>When I started working on the Analysis, I realized I’ve been on this screen before, many times, but I’ve <strong>never used it</strong> really. What this tool does really, is allowing you to track symtpoms, and to visually link it to your cycle. In short, you have to do all the work. Symptoms are displayed in the form of little squares, emphasised during scrolling. This tool could be great, but I feel like the app is <strong>relying on the user too much</strong> to go and track things without giving any guidance.
 </p>
 </div>
 </div>
 </section>
+
+
+<!--IMG7 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG7" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue5.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL7-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG7" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue5.png" id="imgmod7" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>In this version, Clue is giving the user a <strong>head’s up</strong> about what’s to come, what’s going on in their body at this time of the month. The goal was to give some real value to the analysis by giving the user <strong>capital informations</strong> about their health, but in <strong>very simple terms </strong>(sometimes involving graphs and visual content).<br><br>
+Clue has detected that Astrid used a contraception and wasn’t planning on getting pregnant any time soon. This smart  Contraception assistant is telling her whether she's <strong>protected or not</strong>, based on many things. It could be based on how conscientiously the user took their birth control (did they take it too late, were they sick ?), it could be related to the contraception’s initial effectiveness, etc. If the user is not fully protected, Clue is offering them to consult the Encyclopedia’s <strong>most useful sections about this specific issue</strong> (once again, not replacing doctors but giving <em>hints</em> about whether you should worry or not). 
+<br><br>
+So, tracking. Let’s take migraines for example. They are now automatically associated to the user's menstruations so they now can find out, in a few seconds, if the pain they experience is related to the cycle or not. The same “info buttons” system is used here, with now the ability to redirect to the Calendar with the settings the user has selected previously. My goal was really to <strong>highlight the Encyclopedia feature</strong>: offering <strong>reliable content</strong> to the users in a smart way. Another highlighted feature : <strong>the reminders</strong>. The user can now access their alert preferences from many screens by touching the little bell icon.
+</p>
+</div>
+</div>
+</section>
+
+
+
+<!--IMG8 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG8" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue6.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL8-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG8" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue6.png" id="imgmod8" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>
+Here is what the other profiles’ analysis look like. Same goal, we want the user to find most important informations, specific and relevant to his profile, right away. We still observe a <strong>common core</strong> (each of the 3 users are able to track symptoms with filters) along with <strong>specific content</strong> (pregnancy planner, pregnancy assistant, contraception assistant).
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+<!--IMG9 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG9" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue7.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL9-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG9" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue7.png" id="imgmod9" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--IMG10 MODAL-->
+<section class="container">
+      <div class="row">
+       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+          <a data-target="#modalIMG10" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+<div class="image2">
+ <img src="projects/clue8.png" alt="Avatar" class="screen">
+</div>
+</a>
+ </div>
+ </div>
+</section>
+
+<!--MODAL10-->
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG10" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <img src="projects/clue8.png" id="imgmod10" alt="">
+      </div>
+
+
+      <div class="modal-footer">
+        <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Dl</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="disdiv">
+<section class="container" id="paragraph">
+      <div class="row">
+<div class="col-xs-10 col-sm-10 col-md-10 col-lg-12">
+ <p>
+To wrap up this case study, I’d say that I really enjoyed working on this personal project of redesign. I really look forward to see improvements in the future, as smart technologies continue to allow us improving our health tracking.
+
+</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
 
 
 <section class="container-fluid">
@@ -90,8 +637,10 @@
     </footer>
 
 
-<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+
+
 
   
 </body>
