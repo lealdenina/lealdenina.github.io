@@ -822,6 +822,10 @@ body.scrollable {
  .image2{
   margin-bottom: 90px;
  }
+
+#pb{
+  margin-top:40px;
+ }
 }
 
 
@@ -844,6 +848,8 @@ body.scrollable {
    width: 70%;
 }
   }
+
+
 
 @media (min-width: 1300px) {
   #paragraph p{
