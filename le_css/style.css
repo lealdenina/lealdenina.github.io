@@ -735,6 +735,21 @@ body.scrollable {
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
+#imgmodss1{
+   position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+#imgmodss2{
+   position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+#imgmodss3{
+   position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
 
  @media (min-width: 1480px) {
   #imgmod {
@@ -771,8 +786,18 @@ body.scrollable {
 #imgmodf {
    width: 180%;
 }
+
 #imgmodny {
    width: 150%;
+}
+#imgmodss1 {
+   width: 190%;
+}
+#imgmodss2 {
+   width: 190%;
+}
+#imgmodss3 {
+   width: 190%;
 }
   }
 
@@ -811,7 +836,19 @@ body.scrollable {
 #imgmodf {
    width: 120%;
 }
+
+
 #imgmodny {
+   width: 120%;
+}
+
+#imgmodss1 {
+   width: 120%;
+}
+#imgmodss2 {
+   width: 120%;
+}
+#imgmodss3 {
    width: 120%;
 }
   }
