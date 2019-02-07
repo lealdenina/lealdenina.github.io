@@ -110,10 +110,13 @@ color: #3570F2;
   color:blue;
 }
 
-/*.navbar-light .navbar-nav .nav-link {
+
+@media (min-width: 768px) {
+.navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
     padding-left: 20px;
-}*/
+}
+}
 
 div > h1 {
   font-size: 1.8rem;
