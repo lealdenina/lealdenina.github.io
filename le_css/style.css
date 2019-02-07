@@ -870,11 +870,13 @@ margin-top: -15px;
   font-size: 19px;
 font-family: 'Questrial', sans-serif;
 z-index: 1;
+color: #4D5657;
 }
 
 #paragraph2 p{
   font-size: 19px;
 font-family: 'Questrial', sans-serif;
+color: #4D5657;
 }
 
 #prolist{
@@ -882,6 +884,7 @@ list-style-type: square;
 display:block;
 font-family: 'Questrial', sans-serif;
 font-size:19px;
+color: #4D5657;
 }
 
 #firstimg{
