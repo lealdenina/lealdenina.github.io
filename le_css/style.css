@@ -729,6 +729,13 @@ body.scrollable {
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#imgmodny{
+   position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
  @media (min-width: 1480px) {
   #imgmod {
    width: 170%;
@@ -763,6 +770,9 @@ body.scrollable {
 }
 #imgmodf {
    width: 180%;
+}
+#imgmodny {
+   width: 150%;
 }
   }
 
@@ -799,6 +809,9 @@ body.scrollable {
    width: 120%;
 }
 #imgmodf {
+   width: 120%;
+}
+#imgmodny {
    width: 120%;
 }
   }
@@ -842,6 +855,9 @@ body.scrollable {
 ul{
   font-size: 21px !important;
 }
+#paragraph a{
+  font-size: 21px !important;
+}
 
   }
 
@@ -874,6 +890,11 @@ margin-top: -15px;
 font-family: 'Questrial', sans-serif;
 z-index: 1;
 color: #4D5657;
+}
+
+
+#paragraph a{
+  font-size: 19px;
 }
 
 #paragraph2 p{
