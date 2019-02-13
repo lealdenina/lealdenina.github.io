@@ -982,7 +982,7 @@ body.scrollable {
 }
 
 
-  @media (min-width: 992px) and (max-width: 1300px) {
+  @media (min-width: 992px) and (max-width: 1450px) {
   .image2 {
    width: 500px;
    margin: auto;
@@ -1004,7 +1004,7 @@ body.scrollable {
 
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1450px) {
   #paragraph p{
    font-size: 21px !important;
 }
